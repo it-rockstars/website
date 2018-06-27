@@ -133,7 +133,13 @@ section h3.section-subheading {
     border-color: #cccccc !important;
     color: white;
 }
+.modal-body{
+    color:black;
+}
 
+.modal-title{
+    color:black;
+}
 .btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(200, 0, 0, 0.5) !important;
 }
