@@ -6,6 +6,7 @@
 body {
     overflow-x: hidden;
     font-family: 'Futura-CondensedMedium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1em;
     color: white;
 }
 
@@ -39,13 +40,13 @@ ul{
 }
 
 ul.content-list li{
-    font-size: 2vw;
+    font-size: 2.5vmax;
     font-family: 'Futura';
 }
 
 .content-box {
     padding: 10px;
-    font-size: 2vw;
+    font-size: 2.5vmax;
     font-family: 'Futura';
     color: white;
 }
@@ -99,8 +100,6 @@ section {
 section h2.section-heading {
     font-size: 3vw;
     color: white;
-    margin-top: 0;
-    margin-bottom: 15px;
 
 }
 
@@ -119,19 +118,21 @@ section h3.section-subheading {
 }
 
 .btn-xl {
-    font-size: 18px;
+    font-size: 2vw;
     padding: 20px 40px;
 }
 
 .btn-primary {
     background-color: #000000;
-    border-color: #000000;
+    border: 5px solid white;
+    border-radius: 1rem ;
+
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-    background-color: #cccccc !important;
-    border-color: #cccccc !important;
-    color: white;
+    background-color: darkred !important;
+
+
 }
 .modal-body{
     color:black;
@@ -140,9 +141,7 @@ section h3.section-subheading {
 .modal-title{
     color:black;
 }
-.btn-primary:active, .btn-primary:focus {
-    box-shadow: 0 0 0 0.2rem rgba(200, 0, 0, 0.5) !important;
-}
+
 
 ::-moz-selection {
     background: darkred;
@@ -279,8 +278,8 @@ header.masthead .intro-text {
 }
 
 header.masthead .intro-text .intro-lead-in {
-    font-size: 3vw;
-    margin-bottom: 3vh;
+    font-size: 4vw;
+    margin-bottom: 4vh;
     color: darkred;
     font-family: 'Futura', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
